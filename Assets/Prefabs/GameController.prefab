@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1596102575363638}
+  m_IsPrefabAsset: 1
+--- !u!1 &1596102575363638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4230617203365436}
+  - component: {fileID: 114732466940559286}
+  - component: {fileID: 114243235755744718}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: BloodGameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4230617203365436
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596102575363638}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.561769, y: 22.940954, z: 81.83513}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114243235755744718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596102575363638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9906b53272b2dc74fa7bed2867423dbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DifficultyGame: 0
+  NumberBugs: 0
+  NumberRocks: 0
+  DiamondRockSmall: 0
+  DiamondRockMed: 0
+  DiamondRockLarge: 0
+  WarlordDebt: 0
+  HungryNumber: 0
+  ThristNumber: 0
+--- !u!114 &114732466940559286
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596102575363638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59bf2e78479e8441b8c2c03d4e1c3d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stoneSmall: {fileID: 1898903599922398, guid: 50517abbfa2885347aad34d3d00c2b94, type: 2}
+  stoneMid: {fileID: 1807071251295214, guid: 511e3b9046846464ea946ae064710175, type: 2}
+  stoneLarge: {fileID: 1130336686899028, guid: e40341b5afea12f40bb9196569f36cf2, type: 2}
+  bug1: {fileID: 1448139475859840, guid: afc3a46839b65df48b72b261751b3eaa, type: 2}
